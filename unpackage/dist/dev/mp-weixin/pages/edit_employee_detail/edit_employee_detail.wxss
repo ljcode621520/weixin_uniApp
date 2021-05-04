@@ -1,0 +1,99 @@
+.page {
+  padding: 35rpx 0;
+}
+.header {
+  position: relative;
+  padding: 0 35rpx;
+}
+.header .title {
+  border-bottom: solid 1rpx #f0f0f0;
+  padding: 30rpx 15rpx;
+  font-size: 34rpx;
+  font-weight: bold;
+  color: #3474FF;
+}
+.header .title-placeholder {
+  font-size: 34rpx;
+}
+.header .edit-icon {
+  width: 40rpx;
+  position: absolute;
+  right: 45rpx;
+  top: 35rpx;
+}
+.attr {
+  padding: 0 35rpx;
+  border-bottom: solid 20rpx #EEEEF4;
+}
+.attr .list .item {
+  padding: 30rpx 10rpx 30rpx 15rpx;
+  border-bottom: solid 1rpx #f0f0f0;
+  font-size: 30rpx;
+  color: #333;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.attr .list .item .value {
+  display: block;
+  color: #333;
+}
+.attr .desc {
+  display: block;
+  font-size: 30rpx;
+  padding: 30rpx 10rpx 30rpx 15rpx;
+  color: #333;
+  line-height: 1.6;
+}
+.btn {
+  margin: 0 35rpx 35rpx 55rpx;
+  background-color: #3474FF;
+  color: #fff;
+}
+.btn:active {
+  background-color: #0052FF;
+}
+/* .title{
+	padding-left: 30rpx;
+	width: 100%;
+	background-color: #E5E5E5;
+	display: block;
+	padding-top: 10rpx;
+	padding-bottom: 10rpx;
+	
+	color: #808080;
+	
+} */
+/* .save{
+	background-color: @background-color;
+	color: #FFFFFFFF;
+	margin-top: 30rpx;
+}
+input{
+
+	padding-left: 30rpx;
+	padding-right: 30rpx;
+	border-bottom: 1px solid #0052FF;
+	padding-top: 10rpx;
+	padding-bottom: 10rpx;
+} */
+/* picker{
+	margin-left: 30rpx;
+	margin-right:30rpx ;
+	padding-top: 10rpx;
+	padding-bottom: 10rpx;
+}
+button{
+	margin-top: 10rpx;
+	font-size: 35rpx ;
+    margin: 0 35rpx 35rpx 55rpx;
+    background-color: @background-color;
+    color: #fff;
+    &:active{
+        background-color: @background-color-active;
+    }
+} */
+

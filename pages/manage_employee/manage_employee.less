@@ -1,0 +1,55 @@
+@import url("../../style.less");
+.page{
+    padding: 35rpx;
+}
+.list{
+    .item{
+        padding: 30rpx 15rpx;
+        border-bottom: solid 1rpx #55aaff;
+        font-size: 30rpx;
+        color: #333;
+        display: flex;
+        justify-content: space-between;
+        .key{
+        }
+        .value{
+            color: @background-color;
+        }
+        .icon{
+            width: 40rpx;
+        }
+    }
+}
+/* .list-title{
+	color: @background-color;
+	padding-top: 10rpx;
+	padding-bottom: 10rpx;
+} */
+.list-title {
+    margin-top: 35rpx;
+    margin-bottom: 35rpx;
+    font-size: 32rpx;
+    font-weight: bold;
+    color: #0e0e0e;
+    padding-left: 20rpx;
+}
+.btn{
+	margin: 0 35rpx 35rpx 55rpx;
+	background-color: @background-color;
+	color: #fff;
+	&:active{
+		background-color: @background-color-active;
+	}
+}
+
+
+button{
+	margin-top: 10rpx;
+	font-size: 35rpx ;
+    margin: 0 35rpx 35rpx 55rpx;
+    background-color: @background-color;
+    color: #fff;
+    &:active{
+        background-color: @background-color-active;
+    }
+}

@@ -1,0 +1,245 @@
+{
+	"pages": [
+		//pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "欢迎使用EMOS系统",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/demo/demo",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "新用户注册",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/meeting_list/meeting_list",
+			"style": {
+				"navigationBarTitleText": "会议列表",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		},
+		{
+			"path": "pages/checkin/checkin",
+			"style": {
+				"navigationBarTitleText": "在线签到",
+				"enablePullDownRefresh": false
+			}
+		}
+	    ,{
+            "path" : "pages/checkin_result/checkin_result",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "签到结果",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/my_checkin/my_checkin",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "我的考勤",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/message_list/message_list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "消息列表",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/message/message",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "消息详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/meeting/meeting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "会议详情",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/members/members",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "选择成员",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/approval_list/approval_list",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "在线审批",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/approval/approval",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "审批",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/video_meeting/video_meeting",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "视频会议",
+                "enablePullDownRefresh": false,
+				"usingComponents": {
+					"trtc-room": "/wxcomponents/trtc-room/trtc-room"
+				}
+            }
+            
+        }
+		,{
+		    "path" : "pages/mine-info/mine-info",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "个人资料",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/manage_employee/manage_employee",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "员工管理",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+		    "path" : "pages/edit_employee_detail/edit_employee_detail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "员工信息",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},{
+		    "path" : "pages/mgr_unactive_employee/mgr_unactive_employee",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "未激活员工",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		/* {
+		    "path" : "pages/mgr_unactive_employee_detail/mgr_unactive_employee_detail",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "未激活员工详情",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}, */
+		{
+		    "path" : "pages/dept_list/dept_list",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "部门管理",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/role_list/role_list",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "权限管理",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		},
+		{
+		    "path" : "pages/role/role",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false
+		    }
+		    
+		}
+    ],
+	"permission": {
+	    "scope.userLocation": {
+	      "desc": "您的位置信息将用于寻找附近的检测点"
+	    }
+	 },
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "EMOS系统",
+		"navigationBarBackgroundColor": "#3474FF",
+		"backgroundColor": "#EEEEF4"
+	},
+	"tabBar": {
+		"color": "#666",
+		"selectedColor": "#3474FF",
+		"list": [{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "static/bar-1.png",
+				"selectedIconPath": "static/bar-1-active.png"
+			},
+			{
+				"text": "会议",
+				"pagePath": "pages/meeting_list/meeting_list",
+				"iconPath": "static/bar-2.png",
+				"selectedIconPath": "static/bar-2-active.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/mine/mine",
+				"iconPath": "static/bar-5.png",
+				"selectedIconPath": "static/bar-5-active.png"
+			}
+		]
+	}
+}
