@@ -35,7 +35,7 @@ Vue.prototype.url = {
     deleteMessageRefById: baseUrl + "/message/deleteMessageRefById",
     searchMyMeetingListByPage: baseUrl + "/meeting/searchMyMeetingListByPage",
 	//searchMeetingListByPage: baseUrl + '/meeting/searchMeetingListByPage',
-	
+	//
     searchUserGroupByDept: baseUrl + "/user/searchUserGroupByDept",
 	searchAllDepts: baseUrl + '/dept/searchAllDepts',
 	insertDept: baseUrl + '/dept/insertDept',
